@@ -26,30 +26,58 @@
     <div class=mainTitle>
         <h1 class= "title">Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centere ville ou en pleine nature</h2>
-        <div class ="search">
+    </div>
+        <div class=background-search>
+            <form action="/action_page.php"></form>
+            <label for="search"><i class="fas fa-map-marker-alt"></i></label>
+        </div>
+        <div>
+            <input type="search" id="search" name="Marseille, France">
+            <input class="recherche" type="button" value="Rechercher">
+        <!-- <div class ="search">
             <form action="/action_page.php">
             <label for="search"><i class="fas fa-map-marker-alt"></i></label>
             <input type="search" id="search" name="Marseille, France">
             <input class="recherche" type="button" value="Rechercher">
-            </form>
+            </form> -->
         </div>
     </div>
         <div class = "filters">
-            <div class="Fil">Filtres</div>
-        <div class=logo>        
-        <i class="fas fa-money-bill-wave"></i>
-        <span>Economique</span>
-        <i class="fas fa-child fa-1x color: blue"></i>
-        <span>Familial</span>
-        <i class="fas fa-heart"></i>
-        <span>Romantique</span>
-        <i class="fas fa-dog"></i>
-        <span>Animaux autorisé</span>
+            <div class="fil">Filtres</div>
+        <div class='logo'>
+            <div class='border'>
+                <div class='background-logo'><i class="fas fa-money-bill-wave"></i></div>
+                <div class="text">
+                    Economique
+                </div>
+            </div>
+            <div class='border'>
+                <div class='background-logo'><i class="fas fa-child"></i></div>
+                <div class="text">
+                    Familial
+                </div>
+            </div>
+            <div class='border'>
+                <div class='background-logo'><i class="fas fa-heart"></i></div>
+                <div class="text">
+                    Romantique
+                </div>
+            </div>
+            <div class='border'>
+                <div class='background-logo'><i class="fas fa-dog"></i></div>
+                <div class="text">
+                    Animaux autorisés
+                </div>
+            </div>
+        <!-- <i class="fas fa-child fa-1x color: blue"><span class="text">Familial</span></i>
+        <i class="fas fa-heart"><span class='text'>Romantique</span></i>
+        <i class="fas fa-dog"><span class='text'>Animaux autorisé</span></i> -->
+        
         </div>
         </div>
     <div class=logements>
         <i class="fas fa-info"></i>
-        <span class="text">Plus de 500 logements sont disponibles dans cette ville</span>
+        <span class="texte">Plus de 500 logements sont disponibles dans cette ville</span>
     </div>
     <!--La partie principale avec les hébergements-->
     <article id ="hotel">

@@ -27,6 +27,7 @@ nav ul{
     margin-left: 50em;    
 }
 nav a{
+    font-weight:500;
     color:black;
     text-decoration: none;
 }
@@ -40,6 +41,7 @@ nav li :hover{
     padding-top: 1.8em;
     font-weight: 600;
 }
+
 nav a:visited{
     font-weight: 700;
     color: #0065FC;
@@ -72,27 +74,25 @@ header{
     flex-direction: column;
 }
 /*La barre de recherche*/
+.background-search{
+    background-color: #F2F2F2;
+    padding: 10px;
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+}
 form{
     display: flex;
     position: relative;
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
-    width: 99.5%;
-    height: 33px;
 }
-form i{
-    display: flex;
-    background-color: #f2f2f2;
-    border-radius: 10px 0px 0px 10px;
-    border: 1px solid #f2f2f2;
-    height: 24px;
-    width: 33px;
-    position: relative;
-    text-align: center;
-    padding-top: 0.4em;
-}
-input{
-    border: 1px solid #f2f2f2;
+#search{
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+    margin-left: 32px;
+    font-weight: 800;
+    font-size: auto;
 }
 .recherche{
     background-color: #0065FC;
@@ -100,33 +100,61 @@ input{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    padding: 10px;
+    border-style: none;
+    margin: -4.8px;
+
 }
 /*Les filtres*/
 .filters{
     display: flex;
+    flex:1 0 auto;
     padding-top: 1.5em;
+    align-items: center;
 }
-
-.logo i{
-    color: #0065FC;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
-    height: 24px;
-    border-radius:50%;
-    width:33px;
-    text-align: center;
-    padding-top:0.5em;
-    position: absolute;
-}
-.logo span{
+.filters .fil{
     font-weight: 700;
-    font-size: 1em;
-    padding-left: 0.5em;
-    padding-top: 0.35em;
+}
+.logo{
+    display:flex;
+}
+.logo > .border{
+    
+    margin:0 12px;
+
+}
+.border{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
     border: 2px solid #f2f2f2;
     border-radius: 20px;
     text-align: center;
-    position: relative;
+    flex-grow: 0;
+}
+
+.border i{
+    color: #0065FC;
+    text-align: center;
+}
+.background-logo{
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 0.75em;
+    margin-left: -3px;
+    position: absolute;
+    font-size: 1em;
+    min-width:20px;
+
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
 }
 /*Logement*/
 .logements{
