@@ -5,75 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/03f51534c9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        </style>
     <title>Reservia</title>
 </head>
-<body> 
+<body>
     <!-- Le Header avec le logo les filtres la barres de recherche et les onglets-->
     <header class ="head">
-        <a href="index.html"><img src="/images/logo/Reservia@3x.png" alt="Logo Reservia"></a>
-        <nav class=menuTitle>
-            <ul>
-                <li><a href="#hotel">Hébergements</a></li>
-                <li><a href="#activity">Activités</a></li>
-                <li><a class ="sub" href="#">S'inscrire</a></li>
-            </ul>
-        </nav>
-        </header>
-    <div class=mainTitle>
+        <a href="#"><img src="/images/logo/Reservia@3x.png" alt="Logo Reservia"></a>
+        <div class ="menuTitle">
+            <a href="#hotel">Hébergements</a>
+            <a href="#activity">Activités</a>
+            <a class ="sub" href="#">S'inscrire</a>
+        </div>
         <h1 class= "title">Trouvez votre hébergement pour des vacances de rêve</h1>
-        <h2>En plein centere ville ou en pleine nature</h2>
-    </div>
-        <div class=background-search>
-            <form action="/action_page.php"></form>
+        <p>En plein centere ville ou en pleine nature</p>
+        <div class ="search">
+            <form action="/action_page.php">
             <label for="search"><i class="fas fa-map-marker-alt"></i></label>
-        </div>
-        <div>
             <input type="search" id="search" name="Marseille, France">
-            <input class="recherche" type="button" value="Rechercher">
+            <input type="button" value="Rechercher">
+            </form>
         </div>
-    </div>
         <div class = "filters">
-            <div class="fil">Filtres</div>
-        <div class='logo'>
-            <div class='border'>
-                <div class='background-logo'><i class="fas fa-money-bill-wave"></i></div>
-                <div class="text">
-                    Economique
-                </div>
-            </div>
-            <div class='border'>
-                <div class='background-logo'><i class="fas fa-child"></i></div>
-                <div class="text">
-                    Familial
-                </div>
-            </div>
-            <div class='border'>
-                <div class='background-logo'><i class="fas fa-heart"></i></div>
-                <div class="text">
-                    Romantique
-                </div>
-            </div>
-            <div class='border'>
-                <div class='background-logo'><i class="fas fa-dog"></i></div>
-                <div class="text">
-                    Animaux autorisés
-                </div>
-            </div>
+            <span class="Fil">Filtres</span>
+        <i class="fas fa-money-bill-wave">Economique</i>
+        <i class="fas fa-child fa-1x color: blue">Familial</i>
+        <i class="fas fa-heart">Romantique</i>
+        <i class="fas fa-dog">Animaux autorisé</i>
         </div>
-        </div>
-    <div class=logements>
         <i class="fas fa-info"></i>
-        <span class="texte">Plus de 500 logements sont disponibles dans cette ville</span>
-    </div>
+        <span class="text">Plus de 500 logements sont disponibles dans cette ville</span>
+    </header>
     <!--La partie principale avec les hébergements-->
     <article id ="hotel">
         <h2>Hébergements à Marseille</h2>
-    <div class= "hotel">
-        <figure class="img1">
+        <figure>
         <a href="#"><img src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebière"></a>
         <figcaption>
         <h3>Auberge de la cannebière</h3>
@@ -85,7 +50,7 @@
         <i class="fas fa-star" style="color:#F2F2F2;"></i>
         </figcaption>
         </figure>
-        <figure class="img2">
+        <figure>
             <a href="#"><img src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"></a>
             <figcaption>
                 <h3>Hôtel du port</h3>
@@ -97,7 +62,7 @@
                 <i class="fas fa-star"></i>
             </figcaption>
         </figure>
-        <figure class="img3">
+        <figure>
             <a href="#"><img src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes"></a>
             <figcaption>
                 <h3>Hôtel Les mouettes</h3>
@@ -109,7 +74,7 @@
                 <i class="fas fa-star" style="color:#F2F2F2"></i>
             </figcaption>
         </figure>
-        <figure class='img4'>
+        <figure>
             <a href="#"><img src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer"></a>
             <figcaption>
                <h3>Hôtel de la mer</h3>
@@ -121,7 +86,7 @@
                <i class="fas fa-star" style="color:#F2F2F2"></i> 
             </figcaption>
         </figure>
-        <figure class="img5">
+        <figure>
             <a href="#"><img src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier"></a>
             <figcaption>
                <h3>Auberge Le Panier</h3>
@@ -133,7 +98,7 @@
                <i class="fas fa-star" style="color:#F2F2F2"></i> 
             </figcaption>
         </figure>
-        <figure class="img6">
+        <figure>
             <a href="#"><img src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina"></a>
             <figcaption>
                <h3>Hôtel chez Amina</h3>
@@ -145,12 +110,10 @@
                <i class="fas fa-star"></i> 
             </figcaption>
         </figure>
-    </div>
         <h2>Afficher plus</h2>
-    </div>
     </article>
     <!--Section les plus populaires-->
-    <aside   class ="populary">
+    <section class ="populary">
         <h2>Les plus populaires</h2>
         <i class="fas fa-chart-line"></i>
         <figure>
@@ -191,7 +154,7 @@
         </figure>
     </section>
     <!--Les différentes activité a faire dans la ville-->
-    <section id ="activity">
+    <article id ="activity">
         <h2>Activités à Marseille</h2>
         <figure>
             <a href="#"><img src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"></a>
