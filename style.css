@@ -24,7 +24,7 @@ body{
 nav ul{
     list-style: none; 
     display: flex; 
-    margin-left: 50em;    
+    margin-left: 970px;    
 }
 nav a{
     font-weight:500;
@@ -32,7 +32,7 @@ nav a{
     text-decoration: none;
 }
 nav li{
-    margin-left: 2em;
+    margin-left: 20px;
     justify-content: space-between;
 }
 nav li :hover{
@@ -154,7 +154,7 @@ form{
     font-family: 'Raleway', sans-serif;
     color: black;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 15px;
     padding: 10px;
     margin-left: 40px;
     margin-right: 10px;
@@ -162,27 +162,35 @@ form{
 
 /*Logement*/
 .logements{
-    font-size: 0.8em;
-    padding-top: 1em;
+    display:flex;
+    align-items: baseline;
+    font-size: 10px;
+    padding-top: 20px;
 }
-.logements i{
-    size: 0.8em;
-    border: 1px solid #f2f2f2;
+.logements .texte{
+    margin-left: 5px;
+}
+.background-i{
+    border: 2px solid #f2f2f2;
     background-color: white;
     border-radius: 100%;
-    height:20px;
-    width: 26px;
+    height:16px;
+    width: 16px;
+}
+.logements i{
+    margin-top: 3px;
+    margin-left: 6.5px;
     text-align: center;
-    padding-top: 0.5em;
     color: #0065FC;
 }
 /*Hebergement a marseille*/
 .body{
     display: flex;
+    margin-top: -15px;
 }
 article{
     background-color: #F2F2F2;
-    width: 800px;
+    width: 840px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
@@ -208,8 +216,8 @@ article{
     border-radius: 20px;
     height: 180px;
     width: 230px;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
     
 }
 .hotel figcaption p{
@@ -325,7 +333,7 @@ aside{
 /*Les activité*/
 #activity h2{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 40px;
 }
 .activity{
@@ -335,7 +343,7 @@ aside{
 }
 .vieux-port img{
     height: 440px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -345,7 +353,7 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 500px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-inline-end: 15px;
     margin-block-start: 0px;
@@ -362,7 +370,7 @@ aside{
 }
 .pomegues img{
     height: 250px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -372,7 +380,7 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 310px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-inline-end: 15px;
     margin-block-start: 0px;
@@ -380,7 +388,7 @@ aside{
 }
 .frioul img{
     height: 100px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -390,14 +398,14 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 160px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-block-start: auto;
     margin-inline-end: 30px;
 }
 .calanques img{
     height: 440px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -407,7 +415,7 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 500px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-inline-end: 15px;
     margin-block-start: 0px;
@@ -419,7 +427,7 @@ aside{
 }
 .longchamp img{
     height: 170px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -429,7 +437,7 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 230px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-block-start: auto;
     margin-inline-end: 30px;
@@ -437,7 +445,7 @@ aside{
 }
 .notre-dame img{
     height: 170px;
-    width: 280px;
+    width: 330px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -447,10 +455,30 @@ aside{
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 230px;
-    width: 280px;
+    width: 330px;
     margin-inline-start: 15px;
     margin-inline-end: 15px;
     margin-block-start: 0px;
     margin-inline-end: 30px;
     margin-right: 0px;
+}
+/*Le footer du site*/
+footer{
+    display: flex;
+    background-color: #F2F2F2;
+    width: 1550px;
+}
+footer h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.hebergements{
+    margin-inline-start: 245px;
+}
+.assistance{
+    margin-inline-start: 245px;
 }
