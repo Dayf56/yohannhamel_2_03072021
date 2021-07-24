@@ -23,6 +23,7 @@
 /* font du site*/
 
 body {
+    margin: auto;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -31,7 +32,6 @@ body {
 nav ul {
     list-style: none;
     display: flex;
-    margin-left: 970px;
 }
 
 nav a {
@@ -48,7 +48,7 @@ nav li {
 nav li :hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 1.8em;
+    padding-top: 22px;
     font-weight: 600;
 }
 
@@ -70,6 +70,7 @@ header img {
 header {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 /*Le titre du site*/
@@ -224,10 +225,10 @@ form {
 
 article {
     background-color: #F2F2F2;
-    width: 840px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
+    width: 66%;
 }
 
 .hotel {
@@ -238,7 +239,7 @@ article {
 
 .hotel img {
     border-radius: 20px 20px 0px 0px;
-    width: 220px;
+    width: 97%;
     height: 100px;
     padding-left: 5px;
     padding-top: 5px;
@@ -252,7 +253,7 @@ article {
     box-shadow: 0px 0px 10px grey;
     border-radius: 20px;
     height: 180px;
-    width: 230px;
+    width: 29%;
     margin-inline-start: 20px;
     margin-inline-end: 20px;
 }
@@ -321,11 +322,11 @@ article {
 
 aside {
     background-color: #F2F2F2;
-    width: 350px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
     margin-left: 40px;
+    width: 28%    
 }
 
 .populary img {
@@ -345,7 +346,7 @@ aside {
     box-shadow: 0px 0px 10px grey;
     border-radius: 20px;
     height: 120px;
-    width: 280px;
+    width: 95%;
     margin-inline-start: 15px;
     margin-inline-end: 15px;
     margin-block-start: 30px;
@@ -379,12 +380,17 @@ aside {
     font-weight: 500;
     font-size: 12px;
 }
+.populary figcaption{
+    position: relative;
+}
 
 .populary .star {
     padding-left: 10px;
     font-size: 12px;
-    margin-top: 25px;
+    position: absolute;
+    bottom: 5px;
 }
+
 
 /*Les activité*/
 
@@ -401,7 +407,7 @@ aside {
 
 .vieux-port img {
     height: 440px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -412,11 +418,8 @@ aside {
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 500px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
-    margin-block-start: 0px;
-    margin-inline-end: 30px;
+    width: 24%;
+    margin: 2px 5px;
 }
 
 .activity figcaption {
@@ -428,11 +431,13 @@ aside {
 .img2 {
     display: flex;
     flex-direction: column;
+    width: 24%;
+    padding: 0 7px;
 }
 
 .pomegues img {
-    height: 250px;
-    width: 330px;
+    height: 220px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -442,17 +447,14 @@ aside {
     background-color: white;
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
-    height: 310px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
-    margin-block-start: 0px;
-    margin-inline-end: 30px;
+    height: 280px;
+    width: 100%;
+    margin: 2px 5px;
 }
 
 .frioul img {
     height: 100px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -463,15 +465,14 @@ aside {
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 160px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-block-start: auto;
-    margin-inline-end: 30px;
+    width: 100%;
+    margin: 2px 5px;
+    margin-top: auto;
 }
 
 .calanques img {
     height: 440px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -482,21 +483,19 @@ aside {
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 500px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
-    margin-block-start: 0px;
-    margin-inline-end: 30px;
+    width: 24%;
+   margin:2px 12px;
 }
 
 .img3 {
     display: flex;
     flex-direction: column;
+    width: 24%;
 }
 
 .longchamp img {
     height: 170px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -507,16 +506,14 @@ aside {
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 230px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-block-start: auto;
-    margin-inline-end: 30px;
-    margin-right: 0px;
+    width: 100%;
+    margin: 2px 5px;
+    margin-top: auto;
 }
 
 .notre-dame img {
     height: 170px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -527,12 +524,8 @@ aside {
     box-shadow: 2px 5px 10px #F2F2F2;
     border-radius: 20px;
     height: 230px;
-    width: 330px;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
-    margin-block-start: 0px;
-    margin-inline-end: 30px;
-    margin-right: 0px;
+    width: 100%;
+    margin: 2px 5px;
 }
 
 /*Le footer du site*/
@@ -540,7 +533,8 @@ aside {
 footer {
     display: flex;
     background-color: #F2F2F2;
-    width: 1550px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 footer h2 {
