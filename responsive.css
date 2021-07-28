@@ -45,9 +45,13 @@ aside{
     width: auto;
     margin-left: 0px;
 }
+#activity h2{
+    margin-left: 40px;
+}
 .activity{
     flex-direction: column;
     width: auto;
+    margin-left: 35px;
 }
 footer{
     flex-direction: column;
