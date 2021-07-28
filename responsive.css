@@ -1,9 +1,63 @@
-@media screen and (max-width:1366px){
+@media screen and (max-width: 1000px){
+body{
+    width: auto;
+}
+header{
+    justify-content: end;
+}
+nav ul{
+    justify-content:baseline;
+    width: 100%;
+}
+.main-title{
+    text-align:center;
+}
+.filters{
+    width: auto;
+}
+.body{
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+}
+article{
+    width: auto;
+    background-color: white;
 
+}
+.hotel{
+    flex-direction: column;
+    width: auto;
+}
+.hotel img{
+    width: auto;
+}
+.hotel .img1{
+    margin-left: 0px;
+}
+.hotel .photo{
+    width: auto;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 40px;
+}
+aside{
+    width: auto;
+    margin-left: 0px;
+}
+.activity{
+    flex-direction: column;
+    width: auto;
+}
+footer{
+    flex-direction: column;
+    margin-left: 0px;
+}
+.hebergements {
+    margin-inline-start: 0px;
+}
 
-
-
-
-
-
+.assistance {
+    margin-inline-start: 0px;
+}
 }
