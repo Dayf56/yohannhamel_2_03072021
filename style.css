@@ -127,7 +127,9 @@ form {
     border-style: none;
     margin: -4.8px;
 }
-
+.logo_search{
+    visibility: hidden;
+}
 /*Les filtres*/
 
 .filters {
