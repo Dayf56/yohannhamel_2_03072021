@@ -38,7 +38,7 @@ nav ul {
     list-style: none;
     display: flex;
     margin-top: 0px;
-    width: 200px;
+    width: 305px;
 }
 
 nav a {
@@ -237,6 +237,7 @@ form {
 .body {
     display: flex;
     margin-top: -15px;
+    justify-content: space-around;
 }
 
 article {
@@ -341,7 +342,7 @@ aside {
     padding: 20px;
     margin-top: 30px;
     margin-left: 40px;
-    width: 28%    
+    width: 20%    
 }
 
 .populary img {
