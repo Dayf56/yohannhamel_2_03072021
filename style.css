@@ -28,43 +28,57 @@ body {
 }
 
 /*Les liens de navigation*/
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 nav ul {
     list-style: none;
     display: flex;
+    margin-top: 0px;
+    width: 200px;
 }
 
 nav a {
     font-weight: 500;
     color: black;
     text-decoration: none;
+    width: 80%;
 }
 
 nav li {
     margin-left: 20px;
     justify-content: space-between;
+    border-top: 2px solid transparent;
+    padding-top: 22px;
 }
 
-nav li :hover {
+nav li:hover {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 22px;
+    border-color:#0065FC;
     font-weight: 600;
 }
-
-.sub {
-    font-weight: 700;
+nav li:hover a{
     color: #0065FC;
 }
 
+.sub a {
+    font-weight: 700;
+    color: #0065FC;
+    margin-top: 14px;
+}
+.sub{
+    padding-top: 8px;
+    width: 100px;
+}
 /*L'image d'accueil du site*/
 
 header img {
     display: flex;
     margin-left: 0em;
     width: 90px;
-    margin-top: 1em;
-    margin-bottom: 0em;
 }
 
 header {

@@ -1,13 +1,42 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     /* font du site*/
     body {
         width: auto;
     }
-    header {
-        justify-content: end;
+    header nav {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-content: stretch;
         align-items: inherit;
+        grid-template-areas: "image sub" "nav nav";
+        width:100%
     }
+    header .img{
+        grid-area: image;
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    header .hotel{
+        grid-area: nav;
+    }
+    header .activity{
+        grid-area: nav;
+    }
+    header .sub{
+        grid-area: sub;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+    nav ul{
+        grid-area: nav;
+    }
+
     /*Les liens de navigation*/
     nav ul {
         justify-content: baseline;
@@ -15,9 +44,6 @@
         flex-wrap: wrap-reverse;
     }
     /*Le titre du site*/
-    .main-title {
-        text-align: justify;
-    }
     .title {
         font-weight: 800;
         font-size: 27px;
