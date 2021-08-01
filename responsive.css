@@ -32,15 +32,34 @@
         justify-content: flex-end;
         align-items: center;
         height: 100%;
+        width: 100%;
     }
     nav ul{
         grid-area: nav;
+        list-style: none;
+        display: flex;
+        margin-top: 0px;
+        justify-content: space-around;
+        border-bottom: 2px solid #F2F2F2;
+        padding-left:0px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+    nav li{
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+    nav li:hover{
+        color: #0065FC;
+        border-top: 0px;
+        border-bottom: 2px solid #0065FC;
     }
 
     /*Les liens de navigation*/
     nav ul {
         justify-content: baseline;
-        width: 100%;
+        width: auto;
         flex-wrap: wrap-reverse;
     }
     /*Le titre du site*/
@@ -88,9 +107,10 @@
         padding-top: 0px;
         font-weight: 500;
         font-size: 17px;
+        width: 100%;
     }
-    .logements .texte {
-        text-align: justify;
+    .logements .texte{
+        width: 100;
     }
     /*Hebergement a marseille*/
     .body {
@@ -102,6 +122,9 @@
         width: auto;
         background-color: white;
     }
+    .hotel-title{
+        margin-left: 40px;
+    }
     .hotel {
         flex-direction: column;
         width: auto;
@@ -110,47 +133,96 @@
         margin-left: 0px;
     }
     .hotel .photo {
-        width: auto;
+        width: 100%;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         margin-left: 40px;
     }
+    .bottom{
+        margin-left: 45px;
+    }
     /*Populaire*/
     aside {
-        width: auto;
+        width: 100%;
         margin-left: 0px;
+        border-radius: 0px;
+    }
+    .title-popu{
+        padding-top: 15px;
     }
     /*Les activité*/
     #activity h2 {
-        margin-left: 40px;
+        margin-left: 12%;
+        font-size: 25px;
     }
     .activity {
         flex-direction: column;
-        width: auto;
-        margin-left: 35px;
+        width: 100%;
+    }
+    .img2, .img3{
+        width: 100%;
+    }
+    .longchamp{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 12%;
+    }
+    .longchamp img{
+        height: 140px;
+    }
+    .frioul{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .frioul img{
+        height: 140px;
+    }
+    .pomegues{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pomegues img{
+        height: 140px;
     }
     .vieux-port {
-        width: 100%;
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
     }
-    .pomegues {
-        width: 100%;
-    }
-    .frioul {
-        width: 100%;
+    .vieux-port img{
+        height: 140px;
     }
     .calanques {
-        width: 100%;
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
     }
-    .longchamp {
-        width: 100%;
+    .calanques img{
+        height: 140px;
     }
-    .notre-dame {
-        width: 100%;
+    .notre-dame img{
+            height: 140px;
+    }
+    .notre-dame{
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 12%;
     }
     /*Le footer du site*/
     footer {
         flex-direction: column;
         margin-left: 0px;
+        width: 100%;
     }
     .hebergements {
         margin-inline-start: 0px;
