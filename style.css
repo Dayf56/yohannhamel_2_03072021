@@ -35,11 +35,14 @@ nav {
     align-items: center;
     width: 100%;
 }
-
+nav .hotel{
+    padding-right: 30px;
+}
 nav ul {
     list-style: none;
     display: flex;
     margin-top: 0px;
+    padding-right: 30px;
 }
 
 nav a {
@@ -47,6 +50,7 @@ nav a {
     color: black;
     text-decoration: none;
     width: 100%;
+    padding-right: 10px;
 }
 
 nav li {
@@ -82,7 +86,6 @@ nav li:hover a {
 
 header img {
     display: flex;
-    margin-left: 0em;
     width: 90px;
 }
 

@@ -13,12 +13,14 @@
         grid-template-areas: "image sub" "nav nav";
         width:100%
     }
-    header .img{
+    header img{
         grid-area: image;
         margin-top: 0px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        width: 115px;
+        padding-left: 10%;
     }
     header .hotel{
         grid-area: nav;
@@ -34,7 +36,7 @@
         justify-content: flex-end;
         align-items: center;
         height: 100%;
-        width: 100%;
+        width: 95%;
     }
     /*Les liens de navigation*/
     nav ul{
@@ -46,6 +48,7 @@
         border-bottom: 2px solid #F2F2F2;
         padding-left:0px;       
         margin-bottom: 0px;
+        padding-right: 0px;
     }
     nav li{
         margin-bottom: 0px;
@@ -59,9 +62,14 @@
     }
     
     nav ul {
-        justify-content: baseline;
         width: auto;
         flex-wrap: wrap-reverse;
+    }
+    nav a{
+        padding-right: 0px;
+    }
+    nav .hotel{
+        padding-right: 0px;
     }
     /*Le titre du site*/
     .title {
@@ -94,6 +102,7 @@
     .recherche {
         visibility: hidden;
         margin-right: 0px;
+        display: none;
     }
     .logo_search {
         visibility: visible;
@@ -102,7 +111,7 @@
         color: white;
         padding: 12px;
         border-style: none;
-        margin-left: -27%;
+        margin-left: -4%;
     }
     /*Logement*/
     .logements {
