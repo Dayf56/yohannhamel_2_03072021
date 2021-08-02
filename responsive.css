@@ -24,6 +24,8 @@
     }
     header .hotel{
         grid-area: nav;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     header .activite{
         grid-area: nav;
@@ -49,11 +51,13 @@
         padding-left:0px;       
         margin-bottom: 0px;
         padding-right: 0px;
+
     }
     nav li{
         margin-bottom: 0px;
         margin-left: 0px;
         padding-bottom: 10px;
+        padding-left: 0px;
     }
     nav li:hover{
         color: #0065FC;
@@ -66,9 +70,6 @@
         flex-wrap: wrap-reverse;
     }
     nav a{
-        padding-right: 0px;
-    }
-    nav .hotel{
         padding-right: 0px;
     }
     /*Le titre du site*/
@@ -96,8 +97,15 @@
         margin-bottom: 4%;
     }
     /*La barre de recherche*/
+    .background-search{
+        padding: 13px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
     #search {
         padding-right: 25px;
+        margin-left: 45px;
+        padding: 12px;
     }
     .recherche {
         visibility: hidden;
@@ -109,7 +117,7 @@
         background-color: #0065FC;
         border-radius: 12px;
         color: white;
-        padding: 12px;
+        padding: 14px;
         border-style: none;
         margin-left: -4%;
     }
@@ -158,7 +166,7 @@
         width: 100%;
         margin-left: 0px;
         border-radius: 0px;
-        padding: 32px;
+        padding: 8.5%;
     }
     .title-popu{
         padding-top: 15px;
