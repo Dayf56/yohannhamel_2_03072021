@@ -143,7 +143,7 @@
         background-color: white;
     }
     .hotel-title{
-        margin-left: 40px;
+        margin-left: 10%;
     }
     .hotel {
         flex-direction: column;
@@ -156,10 +156,10 @@
         width: 100%;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        margin-left: 40px;
+        margin-left: 10%;
     }
     .bottom{
-        margin-left: 45px;
+        margin-left: 10%;
     }
     /*Populaire*/
     aside {
@@ -244,13 +244,18 @@
     /*Le footer du site*/
     footer {
         flex-direction: column;
-        margin-left: 0px;
+        margin-left: 0%;
         width: 100%;
+    }
+    .propos{
+        margin-left: 10%;
     }
     .hebergements {
         margin-inline-start: 0px;
+        margin-left: 10%;
     }
     .assistance {
         margin-inline-start: 0px;
+        margin-left:10%;
     }
 }
