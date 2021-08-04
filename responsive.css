@@ -60,11 +60,11 @@
         padding-left: 0px;
     }
     nav li:hover{
-        color: #0065FC;
         border-top: 0px;
-        border-bottom: 2px solid #0065FC;        
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 10px; 
     }
-    
     nav ul {
         width: auto;
         flex-wrap: wrap-reverse;
@@ -140,7 +140,7 @@
     }
     article {
         width: auto;
-        background-color: white;
+        background-color: transparent;
         padding: 0px;
     }
     .hotel-title{
