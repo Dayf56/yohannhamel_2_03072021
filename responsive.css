@@ -58,6 +58,8 @@
         margin-left: 0px;
         padding-bottom: 10px;
         padding-left: 0px;
+        width: 50%;
+        text-align: center;
     }
     nav li:hover{
         border-top: 0px;
@@ -68,9 +70,6 @@
     nav ul {
         width: auto;
         flex-wrap: wrap-reverse;
-    }
-    nav a{
-        padding-right: 0px;
     }
     /*Le titre du site*/
     .title {
