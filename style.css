@@ -331,7 +331,7 @@ article {
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 16px;
+    margin-left: 20px;
 }
 
 .hotel-title {
@@ -418,11 +418,15 @@ aside {
 }
 
 /*Les activité*/
+#activity{
+    padding-left: 30px;
+}
 
 #activity h2 {
     font-weight: 800;
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 40px;
+    padding-left: 8px;
 }
 
 .activity {
@@ -560,6 +564,7 @@ footer {
     background-color: #F2F2F2;
     width: 100%;
     margin-top: 20px;
+    padding-left: 30px;
 }
 
 footer h2 {
@@ -571,11 +576,18 @@ footer p {
     font-size: 15px;
     font-weight: 500;
 }
-
+.propos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .hebergements {
     margin-inline-start: 245px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .assistance {
     margin-inline-start: 245px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
