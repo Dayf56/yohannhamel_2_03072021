@@ -180,10 +180,14 @@
         height: 110px;
     }
     /*Les activité*/
+    #activity{
+        padding-left: 0px;
+    }
     #activity h2 {
         margin-left: 10%;
         font-size: 25px;
         padding-top: 0%;
+        padding-left: 0px;
     }
     .activity {
         flex-direction: column;
@@ -254,16 +258,23 @@
         flex-direction: column;
         margin-left: 0%;
         width: 100%;
+        padding-left: 0%;
     }
     .propos{
         margin-left: 10%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .hebergements {
         margin-inline-start: 0px;
         margin-left: 10%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .assistance {
         margin-inline-start: 0px;
         margin-left:10%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
