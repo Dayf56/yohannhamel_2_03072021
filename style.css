@@ -35,10 +35,12 @@ nav {
     align-items: center;
     width: 100%;
 }
-nav .hotel{
+
+nav .hotel {
     padding-right: 15px;
     padding-left: 15px;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -418,7 +420,8 @@ aside {
 }
 
 /*Les activité*/
-#activity{
+
+#activity {
     padding-left: 30px;
 }
 
@@ -576,10 +579,12 @@ footer p {
     font-size: 15px;
     font-weight: 500;
 }
-.propos{
+
+.propos {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .hebergements {
     margin-inline-start: 245px;
     margin-top: 20px;
