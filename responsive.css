@@ -4,6 +4,9 @@
         width: auto;
     }
     /* La partie header du site */
+    header{
+        padding-left: 0px;
+    }
     header nav {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
@@ -80,9 +83,13 @@
         font-size: 17px;
         margin-bottom: 30px;
     }
+    .main-title{
+        padding-left:0px;
+    }
     /*Les filtres*/
     .filters {
         flex-wrap: wrap;
+        margin-left: 0px;
     }
     .filters .fil {
         margin-bottom: 5%;
@@ -118,15 +125,22 @@
         border-style: none;
         margin-left: -4%;
     }
+    .search-bar{
+        padding-left: 0px;
+    }
     /*Logement*/
     .logements {
         padding-top: 0px;
         font-weight: 500;
         font-size: 17px;
         width: 100%;
+        margin-left: 0px;
     }
     .logements .texte {
         width: 100%;
+    }
+    .logements i {
+        font-size: 12px;
     }
     /*Hebergement a marseille*/
     .body {
