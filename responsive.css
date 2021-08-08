@@ -4,7 +4,7 @@
         width: auto;
     }
     /* La partie header du site */
-    header{
+    header {
         padding-left: 0px;
     }
     header nav {
@@ -83,8 +83,8 @@
         font-size: 17px;
         margin-bottom: 30px;
     }
-    .main-title{
-        padding-left:0px;
+    .main-title {
+        padding-left: 0px;
     }
     /*Les filtres*/
     .filters {
@@ -125,7 +125,7 @@
         border-style: none;
         margin-left: -4%;
     }
-    .search-bar{
+    .search-bar {
         padding-left: 0px;
     }
     /*Logement*/
