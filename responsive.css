@@ -154,8 +154,13 @@
         background-color: transparent;
         padding: 0px;
     }
+    article a {
+        width: 100%;
+        margin: 0;
+    }
     .hotel-title {
         margin-left: 10%;
+        margin-bottom: 10px;
     }
     .hotel {
         flex-direction: column;
@@ -164,11 +169,15 @@
     .hotel .img1 {
         margin-left: 0px;
     }
+    .hotel img {
+        width: 98%;
+    }
     .hotel .photo {
         width: 100%;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         margin-left: 10%;
+        margin-top: 20px;
     }
     .bottom {
         margin-left: 11%;
@@ -179,17 +188,18 @@
         width: 100%;
         margin-left: 0px;
         border-radius: 0px;
-        padding: 8.5%;
+        padding: 8.8%;
     }
     .title-popu {
         padding-top: 15px;
         font-size: 25px;
     }
     .populary .photo {
-        height: 120px;
+        height: 140px;
+        width: 100%;
     }
     .populary img {
-        height: 110px;
+        height: 130px;
     }
     /*Les activité*/
     #activity {
@@ -203,67 +213,74 @@
     }
     .activity {
         flex-direction: column;
-        width: 100%;
+        width: 99%;
+    }
+    .activity a {
+        width: 98%
+    }
+    .activity .img_2 {
+        width: 98% !important;
     }
     .img2, .img3 {
         width: 100%;
     }
     .img2 {
         padding: 0px;
+        margin: 0;
     }
     .longchamp {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .longchamp img {
-        height: 140px;
+        height: 150px;
     }
     .frioul {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .frioul img {
-        height: 140px;
+        height: 150px;
     }
     .pomegues {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .pomegues img {
-        height: 140px;
+        height: 150px;
     }
     .vieux-port {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .vieux-port img {
-        height: 140px;
+        height: 150px;
     }
     .calanques {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     .calanques img {
-        height: 140px;
+        height: 150px;
     }
     .notre-dame img {
-        height: 140px;
+        height: 150px;
     }
     .notre-dame {
-        width: 80%;
-        height: 200px;
-        margin: auto;
+        width: 86%;
+        height: 210px;
         margin-top: 20px;
+        margin-left: 10%;
     }
     /*Le footer du site*/
     footer {
