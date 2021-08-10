@@ -53,6 +53,8 @@
         padding-left: 0px;
         margin-bottom: 0px;
         padding-right: 0px;
+        width: auto;
+        flex-wrap: wrap-reverse;
     }
     nav li {
         margin-bottom: 0px;
@@ -67,10 +69,6 @@
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         padding-bottom: 10px;
-    }
-    nav ul {
-        width: auto;
-        flex-wrap: wrap-reverse;
     }
     /*Le titre du site*/
     .title {
@@ -224,17 +222,26 @@
     .img2, .img3 {
         width: 100%;
     }
-    .img2 {
-        padding: 0px;
-        margin: 0;
-    }
-    .longchamp {
+    .vieux-port {
         width: 86%;
         height: 210px;
         margin-top: 20px;
         margin-left: 10%;
     }
-    .longchamp img {
+    .vieux-port img {
+        height: 150px;
+    }
+    .img2 {
+        padding: 0px;
+        margin: 0;
+    }
+    .pomegues {
+        width: 86%;
+        height: 210px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .pomegues img {
         height: 150px;
     }
     .frioul {
@@ -246,24 +253,6 @@
     .frioul img {
         height: 150px;
     }
-    .pomegues {
-        width: 86%;
-        height: 210px;
-        margin-top: 20px;
-        margin-left: 10%;
-    }
-    .pomegues img {
-        height: 150px;
-    }
-    .vieux-port {
-        width: 86%;
-        height: 210px;
-        margin-top: 20px;
-        margin-left: 10%;
-    }
-    .vieux-port img {
-        height: 150px;
-    }
     .calanques {
         width: 86%;
         height: 210px;
@@ -273,14 +262,23 @@
     .calanques img {
         height: 150px;
     }
-    .notre-dame img {
-        height: 150px;
-    }
     .notre-dame {
         width: 86%;
         height: 210px;
         margin-top: 20px;
         margin-left: 10%;
+    }
+    .notre-dame img {
+        height: 150px;
+    }
+    .longchamp {
+        width: 86%;
+        height: 210px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .longchamp img {
+        height: 150px;
     }
     /*Le footer du site*/
     footer {

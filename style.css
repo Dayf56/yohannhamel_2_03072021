@@ -260,7 +260,7 @@ form {
 
 /*Hebergement a marseille*/
 
-.body{
+.body {
     display: flex;
     margin-top: -15px;
     justify-content: space-around;
@@ -292,6 +292,13 @@ article .photo:hover {
     justify-content: center;
 }
 
+.hotel-title {
+    margin-left: 16px;
+    margin-bottom: 7px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
 .hotel img {
     border-radius: 20px 20px 0px 0px;
     width: 97%;
@@ -312,14 +319,6 @@ article .photo:hover {
     margin: 0;
 }
 
-.hotel figcaption p {
-    padding-left: 10px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 5px;
-}
-
 .hotel .title_photo {
     padding-left: 10px;
     text-align: left;
@@ -333,6 +332,14 @@ article .photo:hover {
 
 .grey {
     color: #f2f2f2 !important;
+}
+
+.hotel figcaption p {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
 }
 
 .hotel figcaption {
@@ -357,13 +364,6 @@ article .photo:hover {
     margin-left: 20px;
 }
 
-.hotel-title {
-    margin-left: 16px;
-    margin-bottom: 7px;
-    font-weight: 800;
-    font-size: 20px;
-}
-
 /*Populaire*/
 
 aside {
@@ -374,13 +374,23 @@ aside {
     width: 20%
 }
 
+aside a {
+    color: black;
+    text-decoration: none;
+}
+
 aside .photo:hover {
     box-shadow: 0px 1px 3px #0065FC;
 }
 
-aside a {
-    color: black;
-    text-decoration: none;
+.title-popu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 16px;
+    margin-bottom: 7px;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .populary img {
@@ -406,20 +416,6 @@ aside a {
     margin-inline-end: 30px;
 }
 
-.populary .fa-star {
-    color: #0065FC;
-}
-
-.title-popu {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-left: 16px;
-    margin-bottom: 7px;
-    font-weight: 800;
-    font-size: 20px;
-}
-
 .populary .populary_photo {
     padding-left: 10px;
     text-align: left;
@@ -439,6 +435,10 @@ aside a {
     position: relative;
 }
 
+.populary .fa-star {
+    color: #0065FC;
+}
+
 .populary .star {
     padding-left: 10px;
     font-size: 12px;
@@ -452,16 +452,6 @@ aside a {
     padding-left: 30px;
 }
 
-.activity .photo:hover {
-    box-shadow: 0px 1px 3px #0065FC;
-}
-
-.activity a {
-    color: black;
-    text-decoration: none;
-    width: 24%;
-}
-
 #activity h2 {
     font-weight: 800;
     font-size: 20px;
@@ -471,6 +461,16 @@ aside a {
 
 .activity {
     display: flex;
+}
+
+.activity a {
+    color: black;
+    text-decoration: none;
+    width: 24%;
+}
+
+.activity .photo:hover {
+    box-shadow: 0px 1px 3px #0065FC;
 }
 
 .vieux-port img {
@@ -565,23 +565,6 @@ aside a {
     margin-left: 5px;
 }
 
-.longchamp img {
-    height: 180px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.longchamp {
-    border: 1px solid #F2F2F2;
-    background-color: white;
-    box-shadow: 2px 5px 10px #F2F2F2;
-    border-radius: 20px;
-    height: 240px;
-    width: 100%;
-    margin: 30px 28px;
-}
-
 .notre-dame img {
     height: 170px;
     width: 100%;
@@ -597,6 +580,23 @@ aside a {
     height: 230px;
     width: 100%;
     margin: 0px 28px;
+}
+
+.longchamp img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.longchamp {
+    border: 1px solid #F2F2F2;
+    background-color: white;
+    box-shadow: 2px 5px 10px #F2F2F2;
+    border-radius: 20px;
+    height: 240px;
+    width: 100%;
+    margin: 30px 28px;
 }
 
 /*Le footer du site*/
