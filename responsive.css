@@ -195,6 +195,7 @@
     .populary .photo {
         height: 140px;
         width: 100%;
+        margin-left: auto;
     }
     .populary img {
         height: 130px;
