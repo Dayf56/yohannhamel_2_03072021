@@ -2,6 +2,7 @@
     /* font du site*/
     body {
         width: auto;
+        margin: 1%;
     }
     /* La partie header du site */
     header {
@@ -174,8 +175,7 @@
         width: 100%;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        margin-left: 10%;
-        margin-top: 20px;
+        margin: 20px 8%;
     }
     .bottom {
         margin-left: 11%;
@@ -227,7 +227,7 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .vieux-port img {
         height: 150px;
@@ -240,7 +240,7 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .pomegues img {
         height: 150px;
@@ -249,7 +249,8 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
+        margin-bottom: 0;
     }
     .frioul img {
         height: 150px;
@@ -258,7 +259,7 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .calanques img {
         height: 150px;
@@ -267,7 +268,7 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .notre-dame img {
         height: 150px;
@@ -276,7 +277,7 @@
         width: 86%;
         height: 210px;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .longchamp img {
         height: 150px;
