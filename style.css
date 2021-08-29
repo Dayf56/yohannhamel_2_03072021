@@ -83,6 +83,7 @@ nav li:hover a {
 .sub {
     padding-top: 8px;
     width: 100px;
+    height: auto;
 }
 
 /*L'image d'accueil du site*/
@@ -474,7 +475,7 @@ aside .photo:hover {
 }
 
 .vieux-port img {
-    aspect-ratio: 3/4;
+    aspect-ratio: 4/5;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -525,7 +526,7 @@ aside .photo:hover {
 }
 
 .frioul img {
-    aspect-ratio: 8/3;
+    aspect-ratio: 11/4;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -542,7 +543,7 @@ aside .photo:hover {
 }
 
 .calanques img {
-    aspect-ratio: 3/4;
+    aspect-ratio: 4/5;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -566,7 +567,7 @@ aside .photo:hover {
 }
 
 .notre-dame img {
-    aspect-ratio: 7/4;
+    aspect-ratio: 2/1;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -583,7 +584,7 @@ aside .photo:hover {
 }
 
 .longchamp img {
-    aspect-ratio: 5/3;
+    aspect-ratio: 8/5;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
