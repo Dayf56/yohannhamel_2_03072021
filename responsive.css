@@ -109,6 +109,7 @@
         height: 51px;
         width: 70%;
         margin-left: 45px;
+        padding-bottom: 3%;
         
     }
     .recherche {
@@ -121,7 +122,7 @@
         background-color: #0065FC;
         border-radius: 12px;
         color: white;
-        padding: 17px;
+        padding: 17.5px;
         border-style: none;
         margin: auto;
         margin-left: -6%;
