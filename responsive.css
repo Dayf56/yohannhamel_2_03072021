@@ -101,7 +101,7 @@
     }
     /*La barre de recherche*/
     .background-search {
-        padding: 17px;
+        padding: 16px;
         padding-left: 18px;
         padding-right: 18px;
     }
@@ -121,9 +121,11 @@
         background-color: #0065FC;
         border-radius: 12px;
         color: white;
-        padding: 18px;
+        padding: 17px;
         border-style: none;
-        margin-left: -4%;
+        margin: auto;
+        margin-left: -6%;
+        margin-top: -1%;
     }
     .search-bar {
         padding-left: 0px;
